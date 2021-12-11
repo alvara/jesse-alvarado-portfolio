@@ -3,7 +3,7 @@ import { GitHub, LinkedIn } from '@material-ui/icons';
 
 export default function Navbar() {
   return (
-    <div className='navbar' id='navbar'>
+    <div className='navbar active' id='navbar'>
       <div className='wrapper'>
         <div className="left">
           <a href="#header" className='logo'><h1>Jesse Alvarado</h1></a>
@@ -13,7 +13,9 @@ export default function Navbar() {
           <div className="item-container">
             <a><GitHub className='icon'/></a>
           </div>
-      
+          <a href="#portfolio">Portfolio</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
         </div>
         <div className="right">
           <div className="hamburger">
@@ -22,9 +24,7 @@ export default function Navbar() {
             <span className="line3"></span>
           </div>
 
-          <a href="#portfolio">Portfolio</a>
-          <a href="#blog">Blog</a>
-          <a href="#contact">Contact</a>
+     
         </div>
       </div>
     </div>
