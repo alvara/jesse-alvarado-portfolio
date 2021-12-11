@@ -2,16 +2,23 @@
   position: relative;
   height: 100vh;
 
+
   .sections {
     width: 100%;
     height: calc(100vh - 70px);
     background-color: pink;
     position: relative;
     top: 70px;
+    
+
+    scroll-snap-type: mandatory; /* for older browsers */
+    scroll-snap-points-y: repeat(100vh); /* for older browsers */
+    scroll-snap-type: y mandatory;
 
     > * {
       width:  100vw;
       height: calc(100vh - 70px);
+      scroll-snap-align: start;
     }
   }
 }

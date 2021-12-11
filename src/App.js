@@ -12,11 +12,11 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className='sections'>
-      <Header/>
-      <Portfolio/>
-      <Blog/>
-      <Testimonials/>
-      <Contact/>
+        <Header/>
+        <Portfolio/>
+        <Blog/>
+        <Testimonials/>
+        <Contact/>
       </div>
     </div>
   );
