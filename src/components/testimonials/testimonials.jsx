@@ -1,8 +1,8 @@
-import React from 'react'
+import './testimonials.scss';
 
 export default function testimonials() {
   return (
-    <div>
+    <div className='testimonial'>
       
     </div>
   )
