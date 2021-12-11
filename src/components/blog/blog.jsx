@@ -1,6 +1,6 @@
 import './blog.scss';
 
-export default function blog() {
+export default function Blog() {
   return (
     <div className='blog'>
   
