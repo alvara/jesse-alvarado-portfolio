@@ -6,7 +6,7 @@ export default function Header() {
     <Container className='header' id='header' >
         <div className="header-info">
           <h1>Hi, I'm Jesse</h1>
-          <p>I'm a Web 3.0 Developer<br />based in Tokyo</p>
+          <span className='subtitle'>I'm a Golang Developer<br />based in Tokyo</span>
         </div>
       <Row>
         <Col sm={5}>

@@ -61,6 +61,15 @@
       top: 4%;
       left: 4%;
     }
+
+    .subtitle {
+      font-size: 1.5rem;
+      opacity: 0.6;
+      @media only screen and (max-width: 600px) {
+        font-size: 1.2rem;
+      }
+    }
+
   }
 
 .fill { 

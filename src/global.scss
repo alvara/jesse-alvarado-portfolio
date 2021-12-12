@@ -7,6 +7,7 @@ $navbar-height: 70px;
 // colors
 $font-color-primary: rgb(5, 5, 5);
 $primary-color: #00225e;
+$primary-color-light: #023286;
 $secondary-color: #00bcd4;
 $background-color: #f6f6f6;
 
@@ -22,8 +23,22 @@ h1, h2, h3, h4, h5, h6 {
 
 // for page headers
 h1 {
-  font-size: 60px;
+  font-size: 80px;
   @media only screen and (max-width: 600px) {
-    font-size: 45px;
+    font-size: 48px;
   }
+}
+
+//  for page section headers (normally centered)
+h2 {
+  text-align: center;
+  font-size: 55px;
+  margin: 64px;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 48px;
+
+    margin: 32px;
+  }
+
 }
