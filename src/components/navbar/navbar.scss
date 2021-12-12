@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import '../../global.scss';
 
 .navbar {
   background-color: $background-color;
@@ -11,10 +11,11 @@
   transition: all 1s ease;
 
   .wrapper {
-    padding: 16px 32px;
+    padding: 16px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
   }
 
   &.active {

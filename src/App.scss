@@ -1,3 +1,5 @@
+@import './global.scss';
+
 .App {
   position: relative;
   height: 100vh;
@@ -6,7 +8,7 @@
   .sections {
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: pink;
+    background-color: $background-color;
     position: relative;
     top: 70px;
     
