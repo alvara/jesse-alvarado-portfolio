@@ -15,6 +15,7 @@ export default function Header() {
           </div>
         </Col>
           <Col sm={7}>
+            {/* <div className="img-bg"></div> */}
             <div className="right">
               <img src="personal-pic.png" alt="" className='personal-pic' />
             </div>       
