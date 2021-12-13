@@ -16,11 +16,11 @@ function App() {
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className='sections' onClick={()=>setMenuOpen(false)}>
-        <Header/>
-        <Portfolio/>
-        <Blog/>
-        <Testimonials/>
-        <Contact/>
+        <div className='section'><Header/></div>
+        <div className='section'><Portfolio/></div>
+        <div className='section'><Blog/></div>
+        <div className='section'><Testimonials/></div>
+        <div className='section'><Contact/></div>
       </div>
     </div>
   );
