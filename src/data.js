@@ -11,7 +11,7 @@ export const portfolio = [
     title: "Gym AI",
     description:"Guided workouts through Artificial Intelligence",
     img: "portfolio-img/product-item.png",
-    tags: ["react", "ai", "rails", "express", "bootstrap", "material-ui", "sass"],
+    tags: ["featured","react", "ai", "rails", "express", "bootstrap", "material-ui", "sass"],
   },
   {
     id: 1,

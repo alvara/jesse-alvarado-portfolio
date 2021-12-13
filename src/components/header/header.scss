@@ -52,14 +52,14 @@
 
   .header-info {
     position: absolute;
-    top: 25%;
-    left: 20%;
+    top: 20%;
+    left: 12%;
     margin-top: 48px;
     margin-left: 16px;
 
     @media only screen and (max-width: 600px) {
-      top: 4%;
-      left: 4%;
+      top: 10%;
+      left: 12%;
     }
 
     .subtitle {
