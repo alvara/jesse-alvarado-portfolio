@@ -1,44 +1,16 @@
 export const portfolio = [
   {
     id: 1,
-    title: "BeamsERP",
-    description:"An ERP system for the generation and management of sales documents",
-    img: "portfolio-img/product-item.png",
-    tags: ["featured",""],
-  },
-  {
-    id: 1,
     title: "Gym AI",
-    description:"Guided workouts through Artificial Intelligence",
+    description:"An AI Chatbot that simplifies a user's workout by guiding them through optimized routines.",
     img: "portfolio-img/product-item.png",
-    tags: ["featured","react", "ai", "rails", "express", "bootstrap", "material-ui", "sass"],
+    tags: ["featured","react", "ai", "rails","GPT-3"],
   },
   {
     id: 1,
     title: "BeamsERP",
     description:"An ERP system for the generation and management of sales documents",
     img: "portfolio-img/product-item.png",
-    tags: ["react", "nodejs", "mongodb", "express", "bootstrap", "material-ui", "sass"],
-  },
-  {
-    id: 1,
-    title: "BeamsERP",
-    description:"An ERP system for the generation and management of sales documents",
-    img: "portfolio-img/product-item.png",
-    tags: ["ai", "nodejs", "mongodb", "express", "bootstrap", "material-ui", "sass"],
-  },
-  {
-    id: 1,
-    title: "BeamsERP",
-    description:"An ERP system for the generation and management of sales documents",
-    img: "portfolio-img/product-item.png",
-    tags: ["AI", "nodejs", "mongodb", "express", "bootstrap", "material-ui", "sass"],
-  },
-  {
-    id: 1,
-    title: "BeamsERP",
-    description:"An ERP system for the generation and management of sales documents",
-    img: "portfolio-img/product-item.png",
-    tags: ["Ruby On Rails", "nodejs", "mongodb", "express", "bootstrap", "material-ui", "sass"],
-  },
+    tags: ["featured","Meteor JS", "NodeJS"],
+  }
 ]
