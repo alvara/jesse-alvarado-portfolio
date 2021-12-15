@@ -2,6 +2,7 @@ import PortfolioCategories from '../PortfolioCategories/PortfolioCategories';
 import './Portfolio.scss';
 import { useEffect, useState } from 'react';
 import { portfolio } from '../../data';
+import { Container } from 'react-bootstrap';
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -50,16 +51,17 @@ export default function Portfolio() {
           <PortfolioCategories title={item.title} id={item.id} key={item.id} active={selected === item.id} setSelected = {setSelected}/>
         ))}
       </ul>
-      <div className="portfolio-wrapper">
-
+      <Container className="portfolio-wrapper">
         {data.map((d) => (
           <div className="item">
             <img src={d.img} alt="{d.title} image" />
-            <h3>{d.title}</h3>
-            <p>{d.description}</p>
+            <div className="item-text">
+              <h3>{d.title}</h3>
+              <p className='opacity-100'>{d.description}</p>
+            </div>
           </div>
         ))}
-      </div>
+      </Container>
     </div>
   )
 }
