@@ -8,11 +8,11 @@ export default function Contact() {
 
       <div className='contact-form'>
           <form action='https://getform.io/f/cbea0041-d188-40df-ae75-32bafd02ca96' method='post'>
-            <label for='name'>Name</label>
+            <label htmlFor='name'>Name</label>
             <input type='text' placeholder='Name' id='name' name='name' />
-            <label for='name'>Email</label>
+            <label htmlFor='name'>Email</label>
             <input type='email' placeholder='Email' id='email' name='email' />
-            <label for='name'>Message</label>
+            <label htmlFor='name'>Message</label>
             <textarea placeholder='Message'  id='message' name='message' />
             <button type='submit'>Submit</button>
           </form>

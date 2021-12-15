@@ -14,7 +14,6 @@ export default function Home() {
 
   return (
     <div className="home">
-      <a id='navbar-top'></a>
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className='sections' onClick={()=>setMenuOpen(false)}>

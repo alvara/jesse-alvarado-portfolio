@@ -38,7 +38,6 @@ export default function Portfolio() {
     const filtered_items = portfolio.filter((item) => {
       return item.tags.includes(selected);
     });
-    console.log(filtered_items);
     setData(filtered_items);
 
     return filtered_items.length === 0 ? filtered_items : "featured"
@@ -55,7 +54,7 @@ export default function Portfolio() {
       <Container className="portfolio-wrapper">
         {data.map((d) => (
 
-          <div className="item">
+          <div className="item" key={d.slug}>
             <img src={d.img} alt={d.title + " image"} />
             <div className="item-text">
               <h3>{d.title}</h3>
