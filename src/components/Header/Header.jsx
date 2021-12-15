@@ -6,15 +6,15 @@ export default function Header() {
     <Container className='header' id='header' > 
        
       <Row>
-        <Col sm={12} md={5} lg={4}>
+        <Col sm={12} md={5} lg={6}>
           <div className="left">
             <div className="header-text">
               <h1>Hi, I'm Jesse</h1>
-              <span className='subtitle'>I'm a Golang Developer<br /> based in Tokyo</span>
+              <span className='subtitle'>I'm a Fullstack Web Developer<br /> based in Tokyo</span>
             </div>
           </div>
         </Col>
-          <Col sm={12} md={7} lg={8}>
+          <Col sm={12} md={7} lg={6}>
             {/* <div className="img-bg"></div> */}
             <div className="right">
               <img src="personal-pic.png" alt="" className='personal-pic' />
