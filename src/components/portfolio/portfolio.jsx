@@ -1,4 +1,4 @@
-import PortfolioItem from '../PortfolioItem/PortfolioItem';
+import PortfolioCategories from '../PortfolioCategories/PortfolioCategories';
 import './Portfolio.scss';
 import { useEffect, useState } from 'react';
 import { portfolio } from '../../data';
@@ -47,7 +47,7 @@ export default function Portfolio() {
       <h2>Portfolio</h2>
       <ul>
         {list.map((item) => (
-          <PortfolioItem title={item.title} id={item.id} key={item.id} active={selected === item.id} setSelected = {setSelected}/>
+          <PortfolioCategories title={item.title} id={item.id} key={item.id} active={selected === item.id} setSelected = {setSelected}/>
         ))}
       </ul>
       <div className="portfolio-wrapper">
