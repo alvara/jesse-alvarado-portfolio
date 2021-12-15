@@ -1,6 +1,7 @@
 @import '../../global.scss';
 
 .contact {
+  margin-bottom: 120px;
   .contact-form {
     max-width: 700px;
     margin: auto;
@@ -17,6 +18,10 @@
     margin: 32px 15px;
     padding: 32px 64px;
     border-radius: 16px;
+
+    @media only screen and (max-width: 600px) {
+      padding: 32px 32px;
+    }
 
     input, textarea {
       border: lightgray solid 1px;
