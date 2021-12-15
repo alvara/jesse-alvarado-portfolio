@@ -3,6 +3,7 @@ import './Portfolio.scss';
 import { useEffect, useState } from 'react';
 import { portfolio } from '../../data';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
@@ -53,11 +54,13 @@ export default function Portfolio() {
       </ul>
       <Container className="portfolio-wrapper">
         {data.map((d) => (
+
           <div className="item">
-            <img src={d.img} alt="{d.title} image" />
+            <img src={d.img} alt={d.title + " image"} />
             <div className="item-text">
               <h3>{d.title}</h3>
               <p className='opacity-100'>{d.description}</p>
+              <Link to={'/portfolio/' + d.slug}>See Details</Link>
             </div>
           </div>
         ))}
