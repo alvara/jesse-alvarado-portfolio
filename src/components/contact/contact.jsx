@@ -13,12 +13,13 @@ export default function Contact() {
             <label for='name'>Email</label>
             <input type='email' placeholder='Email' id='email' name='email' />
             <label for='name'>Message</label>
-            <textarea placeholder='Message' />
+            <textarea placeholder='Message'  id='message' name='message' />
             <button type='submit'>Submit</button>
           </form>
-          <h4>Connect On My Socials</h4>      
-          <Socials />
-
+      </div>
+      <div className='text-center'>
+        <h4>Connect On My Socials</h4>      
+        <Socials />
       </div>
     </div>
   )

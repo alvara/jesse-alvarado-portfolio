@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+// TODO: Add logo and favicon
+// import logo from './logo.svg';
 import './App.scss';
 import Navbar from './components/Navbar/Navbar';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -12,6 +13,7 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="App">
+      <a id='navbar-top'></a>
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className='sections' onClick={()=>setMenuOpen(false)}>

@@ -6,11 +6,12 @@
 
   .sections {
     width: 100%;
-    height: calc(100vh - 70px);
+    height: 100%;
     background-color: $background-color;
     position: relative;
     top: 70px;
     
+    // min-height: calc(100vh - 70px);
     scroll-behavior: smooth;
     scroll-snap-type: mandatory; /* for older browsers */
     scroll-snap-points-y: repeat(100vh); /* for older browsers */
@@ -24,7 +25,7 @@
 
     > * {
       width:  100vw;
-      height: calc(100vh - 70px);
+      min-height: calc(100vh - 70px);
       scroll-snap-align: start;
     }
   }

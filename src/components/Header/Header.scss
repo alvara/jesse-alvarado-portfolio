@@ -43,7 +43,8 @@
   // }
 
   .personal-pic {
-    width: 500px;
+    max-width: 600px;
+    overflow: hidden;
     @media only screen and (max-width: 600px) {
       width: 80%;
     }
@@ -52,14 +53,14 @@
 
   .header-info {
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 12%;
     margin-top: 48px;
     margin-left: 16px;
 
     @media only screen and (max-width: 600px) {
-      top: 10%;
-      left: 12%;
+      top: 8%;
+      left: 8%;
     }
 
     .subtitle {
