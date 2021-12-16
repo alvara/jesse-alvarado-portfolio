@@ -12,7 +12,6 @@ import './PortfolioSingle.scss';
 export default function PortfolioSingle() {
   const { slug } = useParams();
   const d = portfolio.filter((item) => { return item.slug === slug })[0];
-    
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -28,4 +27,3 @@ export default function PortfolioSingle() {
     </div>
   )
 }
-
