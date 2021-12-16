@@ -15,6 +15,7 @@ export default function Header() {
           </div>
         </Col>
           <Col sm={12} md={7} lg={6}>
+            {/* TODO: add background image to header */}
             {/* <div className="img-bg"></div> */}
             <div className="right">
               <img src="personal-pic.png" alt="" className='personal-pic' />

@@ -1,14 +1,31 @@
-import React from 'react'
 import { useParams } from 'react-router';
 import { portfolio } from '../data';
-// add graphQL to manage data for posts in future
+import Navbar from '../components/Navbar/Navbar';
+import Menu from '../components/Menu/Menu';
+import PortfolioHeader from '../components/PortfolioHeader/PortfolioHeader';
+import About from '../components/About/About';
+import Contact from '../components/Contact/Contact';
+import { useState } from 'react';
+import './PortfolioSingle.scss';
+// TODO: add graphQL to manage data for posts in future
 
 export default function PortfolioSingle() {
-const { slug } = useParams();
-const item = portfolio.filter((item) => { return item.slug === slug })[0];
+  const { slug } = useParams();
+  const d = portfolio.filter((item) => { return item.slug === slug })[0];
+    
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <div>
-      <h1>{item.title}</h1>
+    <div className='portfolio-single'>
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+
+      <div className='sections' onClick={()=>setMenuOpen(false)}>
+        <div className='section'><PortfolioHeader data={d}/></div>
+        <div className='section'><About/></div>
+        <div className='section'><Contact/></div>
+      </div>
     </div>
   )
 }
+
