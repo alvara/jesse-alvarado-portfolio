@@ -1,0 +1,14 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .top-images {
+    display: flex;
+
+    img {
+      margin: 16px;
+    }
+
+  }
+}

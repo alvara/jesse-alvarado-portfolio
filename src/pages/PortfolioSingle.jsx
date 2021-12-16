@@ -7,6 +7,7 @@ import About from '../components/About/About';
 import Contact from '../components/Contact/Contact';
 import { useState } from 'react';
 import './PortfolioSingle.scss';
+import Slide from '../components/Slide/Slide';
 // TODO: add graphQL to manage data for posts in future
 
 export default function PortfolioSingle() {
@@ -21,7 +22,9 @@ export default function PortfolioSingle() {
 
       <div className='sections' onClick={()=>setMenuOpen(false)}>
         <div className='section'><PortfolioHeader data={d}/></div>
-        <div className='section'><About/></div>
+        {d.slides.map((slide) => (
+         <Slide key={slide.title} data={slide} />
+        ))}
         <div className='section'><Contact/></div>
       </div>
     </div>

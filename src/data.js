@@ -17,16 +17,18 @@ export const portfolio = [
     slides: [
       {
         title: "Background",
-        details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
-        top_img: [],
+        details: `A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. 
+        
+        This made it difficult to analyze important sales information for management.`,
+        top_imgs: ["/portfolio-img/product-item.png","/portfolio-img/product-item.png"],
         right_img: [],
         bottom_img: [],
-        left_img: [],
+        left_imgs: [],
       },
       {
         title: "The Challenge",
         details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
-        top_img: [],
+        top_imgs: [],
         right_img: [],
         bottom_img: [],
         left_img: [],
@@ -34,7 +36,7 @@ export const portfolio = [
       {
         title: "The Solution",
         details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
-        top_img: [],
+        top_imgs: [],
         right_img: [],
         bottom_img: [],
         left_img: [],
@@ -45,7 +47,7 @@ export const portfolio = [
         <li>test</li>\n
         <li>test1</li>\n
         </ul>`,
-        top_img: [],
+        top_imgs: [],
         right_img: [],
         bottom_img: [],
         left_img: [],
@@ -53,7 +55,7 @@ export const portfolio = [
       {
         title: "Background",
         details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
-        top_img: [],
+        top_imgs: [],
         right_img: [],
         bottom_img: [],
         left_img: [],
@@ -61,7 +63,7 @@ export const portfolio = [
       {
         title: "Background",
         details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
-        top_img: [],
+        top_imgs: [],
         right_img: [],
         bottom_img: [],
         left_img: [],
@@ -69,7 +71,7 @@ export const portfolio = [
       {
         title: "Background",
         details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
-        top_img: [],
+        top_imgs: [],
         right_img: [],
         bottom_img: [],
         left_img: [],
