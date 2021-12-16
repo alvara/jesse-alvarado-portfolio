@@ -5,7 +5,6 @@ import './Slide.scss';
 export default function Slide({ data }) {
 
   return (
-    // TODO: gracefully catch null values
     <Container className='slide'>
       <h2>{data.title}</h2>
 
