@@ -18,7 +18,7 @@ export default function Contact() {
           </form>
       </div>
       <div className='text-center'>
-        <h4>Connect On My Socials</h4>      
+        <span>Connect On My Socials</span>      
         <Socials />
       </div>
     </div>

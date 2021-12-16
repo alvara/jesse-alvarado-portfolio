@@ -12,7 +12,7 @@ export const portfolio = [
     title: "BeamsERP",
     slug: "beams-erp",
     description:"An ERP system for the generation and management of sales documents",
-    img: "/portfolio-img/product-item.png",
+    img: "/portfolio-img/demo.png",
     tags: ["featured","Meteor JS", "NodeJS"],
     slides: [
       {
