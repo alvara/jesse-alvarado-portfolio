@@ -17,29 +17,27 @@ export const portfolio = [
     slides: [
       {
         title: "Background",
-        details: `A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. 
-        
-        This made it difficult to analyze important sales information for management.`,
-        top_imgs: ["/portfolio-img/product-item.png","/portfolio-img/product-item.png"],
-        right_img: [],
-        bottom_img: [],
+        details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. <br><br>This made it difficult to analyze important sales information for management.",
+        top_imgs: ["/portfolio-img/product-item.png","/portfolio-img/product-item.png","/portfolio-img/product-item.png"],
+        right_imgs: [],
+        bottom_imgs: [],
         left_imgs: [],
       },
       {
         title: "The Challenge",
         details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
         top_imgs: [],
-        right_img: [],
-        bottom_img: [],
-        left_img: [],
+        right_imgs: [],
+        bottom_imgs: [],
+        left_imgs: [],
       },
       {
         title: "The Solution",
         details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
         top_imgs: [],
-        right_img: [],
-        bottom_img: [],
-        left_img: [],
+        right_imgs: [],
+        bottom_imgs: [],
+        left_imgs: [],
       },
       {
         title: "Features",
@@ -48,33 +46,9 @@ export const portfolio = [
         <li>test1</li>\n
         </ul>`,
         top_imgs: [],
-        right_img: [],
-        bottom_img: [],
-        left_img: [],
-      },
-      {
-        title: "Background",
-        details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
-        top_imgs: [],
-        right_img: [],
-        bottom_img: [],
-        left_img: [],
-      },
-      {
-        title: "Background",
-        details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
-        top_imgs: [],
-        right_img: [],
-        bottom_img: [],
-        left_img: [],
-      },
-      {
-        title: "Background",
-        details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. This made it difficult to analyze important sales information for management.",
-        top_imgs: [],
-        right_img: [],
-        bottom_img: [],
-        left_img: [],
+        right_imgs: [],
+        bottom_imgs: [],
+        left_imgs: [],
       },
     ] 
   }

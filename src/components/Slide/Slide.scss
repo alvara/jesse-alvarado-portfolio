@@ -3,12 +3,41 @@
   flex-direction: column;
   justify-content: center;
 
-  .top-images {
+  .top-images, .bottom-images {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     img {
+      flex-basis: 27%;
       margin: 16px;
+      border-radius: 16px;
+    }
+  }
+
+  .middle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .details {
+      padding: 0 32px;
+
+      p {
+        text-align: justify;
+      }
     }
 
+    .left-images, .right-images {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      img {
+        margin: 16px;
+        border-radius: 16px;
+
+      }
+    }
   }
 }
