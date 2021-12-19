@@ -33,7 +33,7 @@
     background-color: white;
     flex: 1 1 30%;
     border-radius: 16px;
-    margin: 32px 16px;
+    margin: 16px 32px 16px;
     
     
     img {
@@ -48,6 +48,10 @@
     .item-text {
       padding-left: 8px;
       padding-right: 8px;
+
+      p {
+        font-size: 16px;
+      }
 
     }
   }
