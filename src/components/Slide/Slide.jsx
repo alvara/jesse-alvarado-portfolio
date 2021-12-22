@@ -1,6 +1,8 @@
 import { Container } from 'react-bootstrap';
 import ReactHtmlParser from 'html-react-parser'; 
 import './Slide.scss';
+import ModalImage from "react-modal-image";
+
 
 export default function Slide({ data }) {
 
@@ -8,9 +10,10 @@ export default function Slide({ data }) {
     <Container className='slide'>
       <h2>{data.title}</h2>
 
+
       <div className='top-images'>
         {data.top_imgs.map((img,i) => (
-          <img src={img} alt={img.title} key={i} />
+         <ModalImage small={img} medium={img} alt={img.title} key={i}/> 
         ))}
       </div>
 
@@ -19,7 +22,8 @@ export default function Slide({ data }) {
         <div className='left-images'>
           {data.left_imgs.length > 0 ? (
               data.left_imgs.map((img,i) => (
-                <img src={img} alt={img.title} key={i} />
+                <ModalImage small={img} medium={img} alt={img.title} key={i}/> 
+
               ))
           ) : ''}
         </div>
@@ -29,7 +33,8 @@ export default function Slide({ data }) {
         </div>
         {data.right_imgs.length > 0 ? (
             data.right_imgs.map((img,i) => (
-              <img src={img} alt={img.title} key={i} />
+              <ModalImage small={img} medium={img} alt={img.title} key={i}/> 
+
             ))
         ) : ''}
 
@@ -37,7 +42,7 @@ export default function Slide({ data }) {
 
       <div className='bottom-images'>
         {data.bottom_imgs.map((img,i) => (
-          <img src={img} alt={img.title} key={i} />
+          <ModalImage small={img} medium={img} alt={img.title} key={i}/> 
         ))}
       </div>
 
