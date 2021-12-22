@@ -12,6 +12,7 @@
       flex-basis: 27%;
       margin: 16px;
       border-radius: 16px;
+      object-fit: cover;
     }
   }
 
@@ -39,7 +40,13 @@
         list-style-type: disc;
         list-style-position: outside;
       }
+
+      // left and right images
+      img {
+        border-radius: 16px;
+      }
     }
+    
 
     .left-images, .right-images {
       display: flex;
@@ -47,6 +54,7 @@
       justify-content: space-between;
 
       img {
+
         margin: 16px;
         border-radius: 16px;
 

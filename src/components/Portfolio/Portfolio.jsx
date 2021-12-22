@@ -10,23 +10,23 @@ export default function Portfolio() {
   const [data, setData] = useState([]);
   const list = [
     {
-      id: "Featured",
+      id: "featured",
       title: "Featured"
     },
     {
-      id: "Go",
+      id: "go",
       title: "Go"
     },
     {
-      id: "React",
+      id: "react",
       title: "React"
     },
     {
-      id: "Rails",
+      id: "rails",
       title: "Ruby On Rails"
     },
     {
-      id: "AI",
+      id: "ai",
       title: "AI"
     },
   ]
@@ -53,15 +53,15 @@ export default function Portfolio() {
       </ul>
       <Container className="portfolio-wrapper">
         {data.map((d) => (
-
-          <div className="item" key={d.slug}>
-            <img src={d.img} alt={d.title + " image"} />
-            <div className="item-text">
-              <h3>{d.title}</h3>
-              <p className='opacity-100'>{d.description}</p>
-              <Link to={'/portfolio/' + d.slug}>See Details</Link>
+          <Link to={'/portfolio/' + d.slug}>
+            <div className="item" key={d.slug}>
+              <img src={d.img} alt={d.title + " image"} />
+              <div className="item-text">
+                <h3>{d.title}</h3>
+                <p className='opacity-100'>{d.description}</p>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </Container>
     </div>
