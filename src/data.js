@@ -14,7 +14,7 @@ export const portfolio = [
     slug: "beams-erp",
     description:"An ERP system for the generation and management of sales documents",
     img: "/portfolio-img/beams-erp/preview.png",
-    tags: ["MeteorJS", "PhantomJS","Sass","Bitbucket","Bootstrap","Featured"],
+    tags: ["meteorjs", "phantomjs","sass","bootstrap","bitbucket","featured"],
     slides: [
       {
         title: "Background",
