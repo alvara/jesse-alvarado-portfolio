@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import ReactHtmlParser from 'react-html-parser'; 
+import ReactHtmlParser from 'html-react-parser'; 
 import './Slide.scss';
 
 export default function Slide({ data }) {
@@ -25,7 +25,7 @@ export default function Slide({ data }) {
         </div>
         
         <div className='details'>
-          <p>{ ReactHtmlParser (data.details)}</p>
+          <p>{ ReactHtmlParser(data.details) }</p>
         </div>
         {data.right_imgs.length > 0 ? (
             data.right_imgs.map((img,i) => (
