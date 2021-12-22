@@ -16,7 +16,7 @@ export default function PortfolioHeader({ data }) {
         </Col>
           <Col sm={12} md={12} lg={6}>
             <div className="right">
-              <img src={data.img} alt="portfolio preview" className='' />
+              <img src={data.img} alt="portfolio preview" className='mockup' />
             </div>       
         </Col>
       </Row>

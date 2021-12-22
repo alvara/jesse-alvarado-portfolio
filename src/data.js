@@ -1,3 +1,4 @@
+
 export const portfolio = [
   {
     id: 1,
@@ -12,62 +13,78 @@ export const portfolio = [
     title: "BeamsERP",
     slug: "beams-erp",
     description:"An ERP system for the generation and management of sales documents",
-    img: "/portfolio-img/demo.png",
-    tags: ["featured","Meteor JS", "NodeJS"],
+    img: "/portfolio-img/beams-erp/preview.png",
+    tags: ["MeteorJS", "PhantomJS","Sass","Bitbucket","Bootstrap","Featured"],
     slides: [
       {
         title: "Background",
-        details: "A company was in business for over 20 years. During this time, many of their critical sales documents such as invoices, purchase orders, and price quotes were created in various spreadsheet programs (Excel, OpenOffice, LibreOffice), and all in a wide range of formats. <br><br>This made it difficult to analyze important sales information for management.",
+        details: "A company that was in business for over 20 years had accumulated thousands of critical sales documents such as invoices, purchase orders, price quotes, and internal custom records. All documents were created in various spreadsheet software (Excel, OpenOffice, LibreOffice), and had a wide range of formats depending on who created it. This made it difficult for management to analyze details about their sales information and required a lot of tedious work just to get basic information.",
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
-        left_imgs: [],
+        left_imgs: []
       },
       {
         title: "The Challenge",
-        details: "The company needed a way to standardize the workflow based on their current workflow. After exploring several out-of-the-box solutions, it was decided that neither option matched the workflow of a Japanese company that required a certain hanko (seal) workflow to be followed, so a custom system was needed. ",
+        details: "The company needed a way to standardize these files based on their current workflow while retaining flexibility to change when necessary. After exploring several out-of-the-box options, it was decided that neither option matched these requirements, so a custom solution was needed.",
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
-        left_imgs: [],
+        left_imgs: []
       },
       {
         title: "The Solution",
-        details: "A micro erp system was necessary to match the current workflow of how sales documents were generated, while providing consistency so management can obtain and generate critical reports.",
+        details: "After several discussions, it was decided that a simple ERP system should be built to match the current workflow of how all the documents were generated. This system needed to be flexible and had to be implemented within the local network of the company for security purposes.",
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
-        left_imgs: [],
+        left_imgs: []
       },
       {
-        title: "Features",
+        title: "Main Features",
         details: `<ul>\n
         <li>A user account system that allows certain users to approve the status of documents depending on their status in the workflow.</li>\n
-        <li>Generate document ID's according to the company's current incremental formula.</li>\n
-        <li>Have a system wide currency conversion for calculating the profit margins to determine the sales price to customers.</li>\n
-        <li>Print a preview of the sales documents on the fly that matched the company's preferred style and look.</li>\n
-        <li>Automatic backup system to export documents to the company's internal server for outside users to access without needing to use or learn the ERP system. </li>\n
+        <li>Generate correct document ID's according to the company's current incremental formula, avoiding duplicates if two users happened to start creating a document and consider situation where they might cancel.</li>\n
+        <li>Have a system wide currency conversion for automatically calculating the desired profit margins of their price quotes based on the supplier and system being sold.</li>\n
+        <li>Generate a live preview of the sales documents that matched the company's preferred style and look and could be printed with the correct Hanko (Japanese seal) on approval.</li>\n
+        <li>Automated export of documents to their local server via Rsync, including management specific documents for sales analysis.</li>\n
         </ul>`,
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
-        left_imgs: [],
+        left_imgs: []
       },
       {
-        title: "Features",
-        details: `After a little over a year of development, the system satisfied all requirements laid out by the company, and was able to generate all important documents needed.`,
+        title: "Planning Phase",
+        details: `Before doing any coding, it was critical to understand the exact flow of the documents to be managed and generated by the new system. After several discussions with all of the key stakeholders (Management, Sales department, Technical Department), A lvl0 DFD was created to outline the deliverables, along with a detailed description of the schema to determine how the models would be structured. Rough whiteboard sketches were made to visualize quickly how the UI would be laid out.`,
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
-        left_imgs: [],
+        left_imgs: []
       },
       {
-        title: "Source",
-        details: `Because an NDA was signed, I am unable to disclose the source code for this project. However, I have created a demo of the project with all sensitive information removed that can be viewed here.`,
+        title: "Development Phase",
+        details: `As a full-stack project, the majority of time was spent on the backend, with focus on generating the correct documents with the right information. Once the editor and preview components were built, the app was locally ran on a system in their internal network (Companies request for security) and had exported all documents to their specified locations. A final guided wizard component was created to walk users through the creation of the documents to make document generation fast and painless.`,
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
-        left_imgs: [],
+        left_imgs: []
+      },
+      {
+        title: "Final Results",
+        details: `The project took a little over a year of development. The end result was an application that satisfied all requirements laid out by the company, and was able to generate all important documents needed for the key stakeholders on their local server.`,
+        top_imgs: [],
+        right_imgs: [],
+        bottom_imgs: [],
+        left_imgs: []
+      },
+      {
+        title: "Source Code",
+        details: `Unfortunately because an NDA was signed, I am unable to disclose the source code for this project. Names and specific details have been redacted to protect the confidentiality of the project.`,
+        top_imgs: [],
+        right_imgs: [],
+        bottom_imgs: [],
+        left_imgs: []
       }
     ] 
   }
