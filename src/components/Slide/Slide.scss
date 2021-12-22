@@ -26,6 +26,17 @@
       p {
         text-align: justify;
       }
+
+      ul, li {
+        overflow-x: initial;
+      }
+
+      li {
+        display: list-item;
+        list-style-type: disc;
+        list-style-position: outside;
+        padding-bottom: 32px;
+      }
     }
 
     .left-images, .right-images {
