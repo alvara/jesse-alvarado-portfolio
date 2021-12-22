@@ -3,11 +3,11 @@ import { portfolio } from '../data';
 import Navbar from '../components/Navbar/Navbar';
 import Menu from '../components/Menu/Menu';
 import PortfolioHeader from '../components/PortfolioHeader/PortfolioHeader';
-import About from '../components/About/About';
 import Contact from '../components/Contact/Contact';
 import { useState } from 'react';
 import './PortfolioSingle.scss';
 import Slide from '../components/Slide/Slide';
+import PortfolioBuiltBy from '../components/PortfolioBuiltBy/PortfolioBuiltBy';
 // TODO: add graphQL to manage data for posts in future
 
 export default function PortfolioSingle() {
@@ -22,6 +22,7 @@ export default function PortfolioSingle() {
 
       <div className='sections' onClick={()=>setMenuOpen(false)}>
         <div className='section'><PortfolioHeader data={d}/></div>
+        <div className='section'><PortfolioBuiltBy data={d}/></div>
         {d.slides.map((slide) => (
          <Slide key={slide.title} data={slide} />
         ))}

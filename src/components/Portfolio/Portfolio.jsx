@@ -10,23 +10,23 @@ export default function Portfolio() {
   const [data, setData] = useState([]);
   const list = [
     {
-      id: "featured",
+      id: "Featured",
       title: "Featured"
     },
     {
-      id: "go",
+      id: "Go",
       title: "Go"
     },
     {
-      id: "react",
+      id: "React",
       title: "React"
     },
     {
-      id: "rails",
+      id: "Rails",
       title: "Ruby On Rails"
     },
     {
-      id: "ai",
+      id: "AI",
       title: "AI"
     },
   ]
@@ -40,7 +40,7 @@ export default function Portfolio() {
     });
     setData(filtered_items);
 
-    return filtered_items.length === 0 ? filtered_items : "featured"
+    return filtered_items.length === 0 ? filtered_items : 'Featured'
   },[selected]);
 
   return (

@@ -18,7 +18,7 @@ export const portfolio = [
     slides: [
       {
         title: "Background",
-        details: "A company that was in business for over 20 years had accumulated thousands of critical sales documents such as invoices, purchase orders, price quotes, and internal custom records. All documents were created in various spreadsheet software (Excel, OpenOffice, LibreOffice), and had a wide range of formats depending on who created it. This made it difficult for management to analyze details about their sales information and required a lot of tedious work just to get basic information.",
+        details: "A company that was in business for over 20 years had accumulated thousands of critical sales documents such as invoices, purchase orders, price quotes, and internal custom records. All documents were created in various spreadsheet software (Excel, OpenOffice, LibreOffice), and had a wide range of formats depending on who created it. This made it difficult for management to analyze details about their sales information and required a lot of tedious work to obtain basic information about performance and trends.",
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
@@ -26,7 +26,7 @@ export const portfolio = [
       },
       {
         title: "The Challenge",
-        details: "The company needed a way to standardize these files based on their current workflow while retaining flexibility to change when necessary. After exploring several out-of-the-box options, it was decided that neither option matched these requirements, so a custom solution was needed.",
+        details: "The company needed a way to standardize these documents based on their specific workflow while retaining flexibility to change when necessary. After exploring several out-of-the-box options, it was decided that no option matched these requirements, so a custom solution was needed.",
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
