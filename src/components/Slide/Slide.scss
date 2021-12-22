@@ -6,7 +6,7 @@
   .top-images, .bottom-images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
     img {
       flex-basis: 27%;
@@ -17,7 +17,7 @@
 
   .middle-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     .details {
@@ -27,6 +27,9 @@
         text-align: justify;
       }
 
+      ul {
+        padding-left: 20px;
+      }
       ul, li {
         overflow-x: initial;
       }
@@ -35,7 +38,6 @@
         display: list-item;
         list-style-type: disc;
         list-style-position: outside;
-        padding-bottom: 32px;
       }
     }
 

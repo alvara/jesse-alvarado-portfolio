@@ -22,6 +22,9 @@ export default function PortfolioBuiltBy({ data }) {
       case "bitbucket":
         images.push(<img src="/icons/bitbucket.png" alt="Bitbucket" key={i} />)
         break
+      case "rsync":
+        images.push(<img src="/icons/rsync.png" alt="R Sync" key={i} />)
+        break
     }
   })
 
