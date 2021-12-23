@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap';
-import ReactHtmlParser from 'html-react-parser'; 
+import Parse from 'html-react-parser';
 import './Slide.scss';
 import ModalImage from "react-modal-image";
 
@@ -29,7 +29,7 @@ export default function Slide({ data }) {
         </div>
         
         <div className='details'>
-          <p>{ ReactHtmlParser(data.details) }</p>
+          <p>{ Parse(data.details) }</p>
         </div>
         {data.right_imgs.length > 0 ? (
             data.right_imgs.map((img,i) => (
