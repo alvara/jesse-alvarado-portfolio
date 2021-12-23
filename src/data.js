@@ -4,7 +4,7 @@ export const portfolio = [
     id: 2,
     title: "JP-DOCS ERP",
     slug: "docs-erp",
-    description:"An ERP system for the generation and management of sales documents",
+    description:"ERP system for generating and managing sales documents",
     img: "/portfolio-img/docs-erp/preview.png",
     tags: ["meteorjs", "phantomjs","sass","bootstrap","bitbucket","rsync","featured"],
     slides: [
