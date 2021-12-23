@@ -25,6 +25,9 @@ export default function PortfolioBuiltBy({ data }) {
       case "rsync":
         images.push(<img src="/icons/rsync.png" alt="R Sync" key={i} />)
         break
+      case "electron":
+        images.push(<img src="/icons/electron.png" alt="Electron JS" key={i} />)
+        break
     }
   })
 
