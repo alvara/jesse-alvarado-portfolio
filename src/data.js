@@ -29,7 +29,8 @@ export const portfolio = [
         details: `<ul>\n
         <li>Create dynamic, unique responses based on the user’s input</li>\n
         <li>Create a new workout depending on what the user says or requests through natural langauge.</li>\n
-        <li>Text to voice so users can hear what th virtual coach is saying to the user.</li>\n
+        <li>Capable of understanding user intent, even with typos and mistakes</li>\n
+        <li>Text to voice so user can hear what the virtual coach is saying</li>\n
         </ul>`,
         top_imgs: [],
         right_imgs: [],
@@ -66,7 +67,7 @@ export const portfolio = [
         title: "Development",
         details: `As the project manager and developer of the application , I handled various aspects from schema design, routes and controllers, and the core functionality of the AI. The artificial intelligence features were powered by GPT-3, an autoregressive language model that could be accessed through an API.`,
         top_imgs: [],
-        right_imgs: ["/portfolio-img/gym-ai/workout-history.png"],
+        right_imgs: [],
         bottom_imgs: [],
         left_imgs: []
       },
