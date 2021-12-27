@@ -53,14 +53,12 @@ export default function PortfolioBuiltBy({ data }) {
 
   return (
     <div className='portfolio-built-by' > 
-      <div>
-        <div >
+      <Container>
           <h2>Built With</h2>
           <ul>
             {images}
           </ul>
-        </div>
-      </div>
+      </Container>
     </div>
   )
 }

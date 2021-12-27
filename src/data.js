@@ -182,13 +182,13 @@ export const portfolio = [
     id: 4,
     title: "Gymatize",
     slug: "gymatize",
-    description:"A database of anytime fitness gyms",
+    description:"A database of all anytime fitness gyms and their available equipement",
     img: "/portfolio-img/gymatize/preview.png",
     tags: ["rails", "google-maps",,"mapbox","sass","bootstrap","heroku","figma","featured"],
     slides: [
       {
         title: "Background",
-        details: "One of the benefits of being an anytime fitness gym member is being able to visit any of their gyms in the world. However, When traveling to a new gym, it is difficult to plan the workout routine ahead of time because each gym differs in the equipment available. ",
+        details: "One of the benefits of being an anytime fitness gym member is being able to visit any of their gyms in the world. However, when traveling to a new gym, it is difficult to plan the workout routine ahead of time because each gym differs in the equipment available.",
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
