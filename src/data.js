@@ -196,19 +196,18 @@ export const portfolio = [
       },
       {
         title: "The Solution",
-        details: "I created Gymatize, a webapp created over a weekend that stores the location of all anytime fitness gyms. The application allows the user to search for gyms by name or location, and can then track which equipment are available.",
+        details: "Over a weekend, I created Gymatize, a webapp that stores the location of all anytime fitness gyms and can track the equipment available in each gym. The application allows the user to search for gyms by name or location, and they can favorite any gyms that they like.",
         top_imgs: [],
         right_imgs: [],
-        bottom_imgs: [],
-        left_imgs: ["/portfolio-img/gym-ai/equipment-request.png"]
+        bottom_imgs: ["/portfolio-img/gymatize/home.png"],
+        left_imgs: []
       },
       {
         title: "Main Features",
         details: `<ul>\n
-        <li>Create dynamic, unique responses based on the user’s input</li>\n
-        <li>Create a new workout depending on what the user says or requests through natural langauge.</li>\n
-        <li>Capable of understanding user intent, even with typos and mistakes</li>\n
-        <li>Text to voice so user can hear what the virtual coach is saying</li>\n
+        <li>Users can search by location or their current location for Anytime gyms in the area of interest</li>\n
+        <li>Gyms can have equipment added or removed.</li>\n
+        <li>User can select which gyms to add to their favorite locations.</li>\n
         </ul>`,
         top_imgs: [],
         right_imgs: [],
@@ -216,34 +215,25 @@ export const portfolio = [
         left_imgs: []
       },
       {
-        title: "Target Market Analysis",
-        details: `Our team started first with a product sprint session. We defined our target user as someone who was male, between the age of  18-30, who had little to no gym experience and wanted to achieve muscle hypertrophy through resistance training. Our unique value proposition that differentiated our app from others in the marketplace would be the AI chat interface, removing complicated menus so users can focus on their workout.`,
-        top_imgs: [],
-        right_imgs: [],
-        bottom_imgs: [
-    
-        ],
-        left_imgs: []
-      },
-      {
-        title: "User Journey",
-        details: `The next step was to define the core “tasks” the user would perform in the app. We wanted to find the smoothest way for the user to navigate with as few steps as possible. Because our goal was to simplify the workout process, we knew from the start we would not use any forms, and instead let the AI handle acquiring user input through the chat interface. We finally settled on a user flow that we felt satisfied with.`,
+        title: "Planning Phase",
+        details: `Before development, I first planned the user journey for the application. I created a wireframe in Whimsical, and then developed a prototype of the UI using Figma. Next, I planend the schema for the database so I could properly identify the models necessary for the application and plan their relationship.`,
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
         left_imgs: []
       },
+
       {
         title: "",
         details: ``,
-        top_imgs: [ ],
-        right_imgs: ["/portfolio-img/gym-ai/user-flow.png"],
+        top_imgs: [],
+        right_imgs: ["/portfolio-img/gymatize/figma.png"],
         bottom_imgs: [],
-        left_imgs: ["/portfolio-img/gym-ai/wireframe.png"]
+        left_imgs: ["/portfolio-img/gymatize/wireframe.png"]
       },
       {
-        title: "Development",
-        details: `As the project manager and developer of the application , I handled various aspects from schema design, routes and controllers, and the core functionality of the AI. The artificial intelligence features were powered by GPT-3, an autoregressive language model that could be accessed through an API.`,
+        title: "Development Phase",
+        details: `The application was developed in Rails to enable basic CRUD functionality. The geolocation features are powered by a combination of Google maps and Mapbox API, a stack choice I settled on to reduce costs to display the gyms on a map. The final master was deployed to Heroku.`,
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
@@ -253,13 +243,21 @@ export const portfolio = [
         title: "",
         details: ``,
         top_imgs: [],
-        right_imgs: ["/portfolio-img/gym-ai/workout-history.png"],
+        right_imgs: ["/portfolio-img/gymatize/gym-show.png"],
         bottom_imgs: [],
-        left_imgs: ["/portfolio-img/gym-ai/wireframe.png"]
+        left_imgs: ["/portfolio-img/gymatize/gym-favorites.png"]
       },
       {
-        title: "Result & Source",
-        details: `The final application was presented in a public demo in Tokyo. Source code of the project is available on github <a href="https://github.com/alvara/gymcoach-ai">here</a>`,
+        title: "",
+        details: ``,
+        top_imgs: [],
+        right_imgs: [],
+        bottom_imgs: [],
+        left_imgs: ["/portfolio-img/gymatize/gyms-search.png"]
+      },
+      {
+        title: "Source",
+        details: `The final application demo can be viewed <a href="https://gymatize.herokuapp.com/">here</a>.<br>Source code of the project is available on github <a href="https://github.com/alvara/gymcoach-ai">here</a>`,
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
