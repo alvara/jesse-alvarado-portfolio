@@ -93,7 +93,7 @@ export const portfolio = [
     id: 2,
     title: "Artistible",
     slug: "artistible",
-    description:"Discover and book local artist services",
+    description:"Discover local artists and book their services",
     img: "/portfolio-img/artistible/preview.png",
     tags: ["meteorjs", "phantomjs","sass","bootstrap","bitbucket","rsync","featured"],
     slides: [
@@ -177,7 +177,7 @@ export const portfolio = [
   },
   {
     id: 2,
-    title: "JP-DOCS ERP",
+    title: "JP DOCS ERP",
     slug: "docs-erp",
     description:"ERP system for generating and managing sales documents",
     img: "/portfolio-img/docs-erp/preview.png",
