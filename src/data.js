@@ -356,15 +356,7 @@ export const portfolio = [
       slides: [
         {
           title: "Background",
-          details: "Movie enthusiasts often watch multiple movies in one sitting with their friends or family. They spend a lot of time researching which movies they would like to watch, but at the time of watching, struggle to decide on the movies to watch.",
-          top_imgs: [],
-          right_imgs: [],
-          bottom_imgs: [],
-          left_imgs: []
-        },
-        {
-          title: "The Challenge",
-          details: "Although the laser systems did the same work, they were two different models with different operating software, requiring the engineers to create the job files twice because the supported csv formats were different. Due to the size and scale of the job files, their engineer were spending weeks recreating job files.",
+          details: "Movie enthusiasts often watch multiple movies in one sitting with their friends or family. But at the time of actually watching, struggle to decide on the movies to watch.",
           top_imgs: [],
           right_imgs: [],
           bottom_imgs: [],
@@ -372,18 +364,26 @@ export const portfolio = [
         },
         {
           title: "The Solution",
-          details: "To assist our client, I began to work on an offline utility that allowed the engineers to import job files for one system and convert it to the second system.",
+          details: "This fun application allows users to view or curate their own personal lists of movies ahead of time to guide them on their next movie night.",
           top_imgs: [],
-          right_imgs: ["/portfolio-img/job-converter/ui.png"],
+          right_imgs: [],
           bottom_imgs: [],
           left_imgs: []
         },
         {
+          title: "",
+          details: "",
+          top_imgs: [],
+          right_imgs: [],
+          bottom_imgs: [],
+          left_imgs: ["/portfolio-img/binge-master/movies-list.png"]
+        },
+        {
           title: "Main Features",
           details: `<ul>\n
-          <li><b>Offline support</b> using electron because internet access was difficult inside the factory.</li>\n
-          <li><b>processing options</b> to allow the engineers to create variations of their job files for testing purposes.</li>\n
-          <li><b>exportable zip</b> to keep all job files within a single file for easy transferring between computer and laser systems.</li>\n
+          <li><b>Add or Remove</b> movies from a bookmarked list</li>\n
+          <li><b>Add comments</b> to each movie bookmarked so others can see why you chose a certain movie.</li>\n
+          <li><b>Dynamic background</b> changes based on the movies in the list as a fun way to immerse self into the application.</li>\n
           </ul>`,
           top_imgs: [],
           right_imgs: [],
@@ -391,16 +391,24 @@ export const portfolio = [
           left_imgs: []
         },
         {
-          title: "Final Results",
-          details: `The project took a week of development time in order to build and test with the laser systems. The end result was a utility that allowed the engineers to convert their job files to the proper format for the laser systems.`,
+          title: "Development",
+          details: `The application was built using Ruby on Rails in the backend to achieve basic CRUD functionality. A connection to the IMDB api was used to gather images, movie titles, and descriptions.`,
           top_imgs: [],
           right_imgs: [],
           bottom_imgs: [],
           left_imgs: []
         },
         {
-          title: "Source Code",
-          details: `Because an NDA was signed, I am unable to disclose the source code for this project. Specific details such as names have been redacted and changed to protect the confidentiality of the client.`,
+          title: "",
+          details: "",
+          top_imgs: [],
+          right_imgs: ["/portfolio-img/binge-master/add-movie.png"],
+          bottom_imgs: [],
+          left_imgs: ["/portfolio-img/binge-master/home.png"]
+        },
+        {
+          title: "Source",
+          details: `The final application demo can be viewed <a href="https://movie-binge-master.herokuapp.com/">here</a>.<br>Source code of the project is available on github <a href="https://github.com/alvara/rails-watch-list">here</a>`,
           top_imgs: [],
           right_imgs: [],
           bottom_imgs: [],
