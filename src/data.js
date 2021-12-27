@@ -2,10 +2,85 @@
 export const portfolio = [
   {
     id: 2,
+    title: "Gym AI",
+    slug: "gym-ai",
+    description:"Guided workouts through artificial intelligence",
+    img: "/portfolio-img/gym-ai/preview.png",
+    tags: ["rails", "gpt-3","sass","bootstrap","heroku","figma","featured"],
+    slides: [
+      {
+        title: "Background",
+        details: "A study found that 80% of gym members who get a gym membership quit within 5 months. Those who do go to the gym regularly often lack experience (only 12.5% get a personal coach) and often do not track their progress. In the end,  gym goers often see a drop in their consistency and many end up quitting the gym after failing to achieve their goal.",
+        top_imgs: [],
+        right_imgs: [],
+        bottom_imgs: [],
+        left_imgs: []
+      },
+      {
+        title: "The Solution",
+        details: "In order to make training at the gym enjoyable, I created a web app with a small team of developers using artificial intelligence to guide the user with their gym workout. The virtual coach would communicate to the user through a chat based interface to set the user’s goal, create a workout, and track their progress.",
+        top_imgs: [],
+        right_imgs: [],
+        bottom_imgs: [],
+        left_imgs: ["/portfolio-img/gym-ai/equipment-request.png"]
+      },
+      {
+        title: "Main Features",
+        details: `<ul>\n
+        <li>Create dynamic, unique responses based on the user’s input</li>\n
+        <li>Create a new workout depending on what the user says or requests through natural langauge.</li>\n
+        <li>Text to voice so users can hear what th virtual coach is saying to the user.</li>\n
+        </ul>`,
+        top_imgs: [],
+        right_imgs: [],
+        bottom_imgs: [],
+        left_imgs: []
+      },
+      {
+        title: "Target Market Analysis",
+        details: `Our team started first with a product sprint session. We defined our target user as someone who was male, between the age of  18-30, who had little to no gym experience and wanted to achieve muscle hypertrophy through resistance training. Our unique value proposition that differentiated our app from others in the marketplace would be the AI chat interface, removing complicated menus so users can focus on their workout.`,
+        top_imgs: [],
+        right_imgs: [],
+        bottom_imgs: [
+   
+        ],
+        left_imgs: []
+      },
+      {
+        title: "User Journey",
+        details: `The next step was to define the core “tasks” the user would perform in the app. We wanted to find the smoothest way for the user to navigate with as few steps as possible. Because our goal was to simplify the workout process, we knew from the start we would not use any forms, and instead let the AI handle acquiring user input through the chat interface. We finally settled on a user flow that we felt satisfied with.`,
+        top_imgs: [],
+        right_imgs: [],
+        bottom_imgs: [
+          "/portfolio-img/gym-ai/user-flow.png",
+          "/portfolio-img/gym-ai/wireframe.png"
+        ],
+        left_imgs: []
+      },
+      {
+        title: "Development",
+        details: `As the project manager and developer of the application , I handled various aspects from schema design, routes and controllers, and the core functionality of the AI. The artificial intelligence features were powered by GPT-3, an autoregressive language model that allowed access through an API.`,
+        top_imgs: [],
+        right_imgs: [],
+        bottom_imgs: ["/portfolio-img/gym-ai/workout-history.png","/portfolio-img/gym-ai/change-workout.png"],
+        left_imgs: []
+      },
+      {
+        title: "Result & Source",
+        details: `The final application was presented in a public demo in Tokyo. Source code of the project is available on github <a href="https://github.com/alvara/gymcoach-ai">here</a>`,
+        top_imgs: [],
+        right_imgs: [],
+        bottom_imgs: [],
+        left_imgs: ["/portfolio-img/gym-ai/workout-history.png"]
+      }
+    ] 
+  },
+  {
+    id: 2,
     title: "Artistible",
     slug: "artistible",
     description:"Discover and book local artist services",
-    img: "/portfolio-img/docs-erp/preview.png",
+    img: "/portfolio-img/artistible/preview.png",
     tags: ["meteorjs", "phantomjs","sass","bootstrap","bitbucket","rsync","featured"],
     slides: [
       {
