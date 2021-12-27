@@ -1,6 +1,6 @@
 
 export const portfolio = [
-  // doc erp
+  // 2. doc erp
   {
     id: 2,
     title: "JP DOCS ERP",
@@ -87,9 +87,9 @@ export const portfolio = [
       }
     ] 
   },
-  // gym-ai
+  // 3. gym-ai
   {
-    id: 2,
+    id: 3,
     title: "Gym AI",
     slug: "gym-ai",
     description:"Guided workouts through artificial intelligence",
@@ -177,18 +177,18 @@ export const portfolio = [
       }
     ] 
   },
-  // gymatize
+  // 4. gymatize
   {
-    id: 2,
+    id: 4,
     title: "Gymatize",
     slug: "gymatize",
-    description:"Guided workouts through artificial intelligence",
-    img: "/portfolio-img/gym-ai/preview.png",
-    tags: ["rails", "gpt3","ai","sass","bootstrap","heroku","figma","featured"],
+    description:"A database of anytime fitness gyms",
+    img: "/portfolio-img/gymatize/preview.png",
+    tags: ["rails", "google-maps",,"mapbox","sass","bootstrap","heroku","figma","featured"],
     slides: [
       {
         title: "Background",
-        details: "A study found that 80% of gym members who get a gym membership quit within 5 months. Those who do go to the gym regularly often lack experience (only 12.5% get a personal coach) and often do not track their progress. In the end,  gym goers often see a drop in their consistency and many end up quitting the gym after failing to achieve their goal.",
+        details: "One of the benefits of being an anytime fitness gym member is being able to visit any of their gyms in the world. However, When traveling to a new gym, it is difficult to plan the workout routine ahead of time because each gym differs in the equipment available. ",
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
@@ -196,7 +196,7 @@ export const portfolio = [
       },
       {
         title: "The Solution",
-        details: "In order to make training at the gym enjoyable, I created a web app with a small team of developers using artificial intelligence to guide the user with their gym workout. The virtual coach would communicate to the user through a chat based interface to set the user’s goal, create a workout, and track their progress.",
+        details: "I created Gymatize, a webapp created over a weekend that stores the location of all anytime fitness gyms. The application allows the user to search for gyms by name or location, and can then track which equipment are available.",
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
@@ -267,9 +267,9 @@ export const portfolio = [
       }
     ] 
   },
-  // artistible
+  // 5. artistible
   {
-    id: 6,
+    id: 5,
     title: "Artistible",
     slug: "artistible",
     description:"Discover local artists and book their services.",
@@ -347,9 +347,9 @@ export const portfolio = [
       }
     ] 
   },
-  // csv job converter
+  // 6. csv job converter
   {
-    id: 2,
+    id: 6,
     title: "CSV Job Converter",
     slug: "job-converter",
     description:"An offline utility to convert job files for different laser systems.",
