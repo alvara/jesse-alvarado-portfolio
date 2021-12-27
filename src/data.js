@@ -345,6 +345,69 @@ export const portfolio = [
       }
     ] 
   },
+    // 7. binge master
+    {
+      id: 7,
+      title: "Binge Master",
+      slug: "binge-master",
+      description:"Personally curated movie lists for your next movie binge.",
+      img: "/portfolio-img/binge-master/preview.png",
+      tags: ["rails", "sass","bootstrap","heroku","figma","featured"],
+      slides: [
+        {
+          title: "Background",
+          details: "Movie enthusiasts often watch multiple movies in one sitting with their friends or family. They spend a lot of time researching which movies they would like to watch, but at the time of watching, struggle to decide on the movies to watch.",
+          top_imgs: [],
+          right_imgs: [],
+          bottom_imgs: [],
+          left_imgs: []
+        },
+        {
+          title: "The Challenge",
+          details: "Although the laser systems did the same work, they were two different models with different operating software, requiring the engineers to create the job files twice because the supported csv formats were different. Due to the size and scale of the job files, their engineer were spending weeks recreating job files.",
+          top_imgs: [],
+          right_imgs: [],
+          bottom_imgs: [],
+          left_imgs: []
+        },
+        {
+          title: "The Solution",
+          details: "To assist our client, I began to work on an offline utility that allowed the engineers to import job files for one system and convert it to the second system.",
+          top_imgs: [],
+          right_imgs: ["/portfolio-img/job-converter/ui.png"],
+          bottom_imgs: [],
+          left_imgs: []
+        },
+        {
+          title: "Main Features",
+          details: `<ul>\n
+          <li><b>Offline support</b> using electron because internet access was difficult inside the factory.</li>\n
+          <li><b>processing options</b> to allow the engineers to create variations of their job files for testing purposes.</li>\n
+          <li><b>exportable zip</b> to keep all job files within a single file for easy transferring between computer and laser systems.</li>\n
+          </ul>`,
+          top_imgs: [],
+          right_imgs: [],
+          bottom_imgs: [],
+          left_imgs: []
+        },
+        {
+          title: "Final Results",
+          details: `The project took a week of development time in order to build and test with the laser systems. The end result was a utility that allowed the engineers to convert their job files to the proper format for the laser systems.`,
+          top_imgs: [],
+          right_imgs: [],
+          bottom_imgs: [],
+          left_imgs: []
+        },
+        {
+          title: "Source Code",
+          details: `Because an NDA was signed, I am unable to disclose the source code for this project. Specific details such as names have been redacted and changed to protect the confidentiality of the client.`,
+          top_imgs: [],
+          right_imgs: [],
+          bottom_imgs: [],
+          left_imgs: []
+        }
+      ] 
+    },
   // 6. csv job converter
   {
     id: 6,
