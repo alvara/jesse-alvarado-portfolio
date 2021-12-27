@@ -13,8 +13,6 @@
       object-fit: cover;
 
       img {
-        width: 100%;
-        height: 350px;
         margin-bottom: 16px;
       }
     }
@@ -44,13 +42,6 @@
         list-style-type: disc;
         list-style-position: outside;
       }
-
-      // left and right images
-      img {
-        border-radius: 8px;
-        margin-bottom: 16px;
-
-      }
     }
     
 
@@ -62,8 +53,6 @@
       img {
         border-radius: 8px;
         margin-bottom: 16px;
-
-
       }
     }
   }

@@ -6,7 +6,7 @@ export const portfolio = [
     slug: "gym-ai",
     description:"Guided workouts through artificial intelligence",
     img: "/portfolio-img/gym-ai/preview.png",
-    tags: ["rails", "gpt-3","sass","bootstrap","heroku","figma","featured"],
+    tags: ["rails", "gpt3","sass","bootstrap","heroku","figma","featured"],
     slides: [
       {
         title: "Background",
@@ -51,19 +51,32 @@ export const portfolio = [
         details: `The next step was to define the core “tasks” the user would perform in the app. We wanted to find the smoothest way for the user to navigate with as few steps as possible. Because our goal was to simplify the workout process, we knew from the start we would not use any forms, and instead let the AI handle acquiring user input through the chat interface. We finally settled on a user flow that we felt satisfied with.`,
         top_imgs: [],
         right_imgs: [],
-        bottom_imgs: [
-        
-        ],
-        left_imgs: [  "/portfolio-img/gym-ai/user-flow.png",
-        "/portfolio-img/gym-ai/wireframe.png"]
+        bottom_imgs: [],
+        left_imgs: []
+      },
+      {
+        title: "",
+        details: ``,
+        top_imgs: [ ],
+        right_imgs: ["/portfolio-img/gym-ai/user-flow.png"],
+        bottom_imgs: [],
+        left_imgs: ["/portfolio-img/gym-ai/wireframe.png"]
       },
       {
         title: "Development",
-        details: `As the project manager and developer of the application , I handled various aspects from schema design, routes and controllers, and the core functionality of the AI. The artificial intelligence features were powered by GPT-3, an autoregressive language model that allowed access through an API.`,
+        details: `As the project manager and developer of the application , I handled various aspects from schema design, routes and controllers, and the core functionality of the AI. The artificial intelligence features were powered by GPT-3, an autoregressive language model that could be accessed through an API.`,
         top_imgs: [],
-        right_imgs: [],
-        bottom_imgs: ["/portfolio-img/gym-ai/workout-history.png","/portfolio-img/gym-ai/change-workout.png"],
+        right_imgs: ["/portfolio-img/gym-ai/workout-history.png"],
+        bottom_imgs: [],
         left_imgs: []
+      },
+      {
+        title: "",
+        details: ``,
+        top_imgs: [],
+        right_imgs: ["/portfolio-img/gym-ai/workout-history.png"],
+        bottom_imgs: [],
+        left_imgs: ["/portfolio-img/gym-ai/wireframe.png"]
       },
       {
         title: "Result & Source",
@@ -71,7 +84,7 @@ export const portfolio = [
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [],
-        left_imgs: ["/portfolio-img/gym-ai/workout-history.png"]
+        left_imgs: []
       }
     ] 
   },
