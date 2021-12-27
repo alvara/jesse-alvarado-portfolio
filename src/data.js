@@ -52,10 +52,10 @@ export const portfolio = [
         top_imgs: [],
         right_imgs: [],
         bottom_imgs: [
-          "/portfolio-img/gym-ai/user-flow.png",
-          "/portfolio-img/gym-ai/wireframe.png"
+        
         ],
-        left_imgs: []
+        left_imgs: [  "/portfolio-img/gym-ai/user-flow.png",
+        "/portfolio-img/gym-ai/wireframe.png"]
       },
       {
         title: "Development",
