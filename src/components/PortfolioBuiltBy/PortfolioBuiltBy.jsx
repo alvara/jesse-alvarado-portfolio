@@ -10,6 +10,12 @@ export default function PortfolioBuiltBy({ data }) {
   let images = []
   data.tags.map((tag, i) => {
     switch (tag) {
+      case "google-maps":
+        images.push(<img src="/icons/google-maps.png" alt="Google Maps" key={i} />)
+        break
+      case "mapbox":
+        images.push(<img src="/icons/mapbox.png" alt="MapBox" key={i} />)
+        break
       case "rails":
         images.push(<img src="/icons/rails.png" alt="Ruby On Rails" key={i} />)
         break
