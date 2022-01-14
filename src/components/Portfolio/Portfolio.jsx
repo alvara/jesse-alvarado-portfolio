@@ -14,14 +14,6 @@ export default function Portfolio() {
       title: "Featured"
     },
     {
-      id: "go",
-      title: "Go"
-    },
-    {
-      id: "react",
-      title: "React"
-    },
-    {
       id: "rails",
       title: "Ruby On Rails"
     },
