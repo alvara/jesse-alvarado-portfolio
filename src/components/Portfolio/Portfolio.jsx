@@ -23,8 +23,6 @@ export default function Portfolio() {
     },
   ]
 
-
-
   // whenever selected change, update data with useEffect
   useEffect(() => {
     const filtered_items = portfolio.filter((item) => {
@@ -34,6 +32,7 @@ export default function Portfolio() {
 
     return filtered_items.length === 0 ? filtered_items : 'Featured'
   },[selected]);
+  
 
   return (
     <div className='portfolio' id='portfolio'>
@@ -48,10 +47,16 @@ export default function Portfolio() {
           <Link to={'/portfolio/' + d.slug}>
             <div className="item" key={d.slug}>
               <img src={d.img} alt={d.title + " image"} />
+             
+
               <div className="item-text">
                 <h3>{d.title}</h3>
                 <p className='opacity-100'>{d.description}</p>
               </div>
+
+              {d.tags.map((tag, i) => (
+                  <span key={i} className='pill'>{tag}</span>
+                ))}
             </div>
           </Link>
         ))}

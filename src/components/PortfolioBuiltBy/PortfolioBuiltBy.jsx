@@ -49,8 +49,6 @@ export default function PortfolioBuiltBy({ data }) {
     }
   })
 
-  console.log(images)
-
   return (
     <div className='portfolio-built-by' > 
       <Container>
