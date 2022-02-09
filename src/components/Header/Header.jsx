@@ -10,7 +10,7 @@ export default function Header() {
           <div className="left">
             <div className="header-text">
               <h1>Hi, I'm Jesse</h1>
-              <span className='subtitle'>I'm a Frontend Developer<br /> based in Tokyo</span>
+              <span className='subtitle'>I'm a Fullstack Developer<br /> based in Tokyo</span>
             </div>
           </div>
         </Col>
