@@ -10,23 +10,5 @@
     background-color: $background-color;
     position: relative;
     top: 70px;
-    
-    // min-height: calc(100vh - 70px);
-    scroll-behavior: smooth;
-    scroll-snap-type: mandatory; /* for older browsers */
-    scroll-snap-points-y: repeat(100vh); /* for older browsers */
-    scroll-snap-type: y mandatory;
-
-    // TODO: test with autoprefixer later
-    scrollbar-width: none; // for firefox
-    &::-webkit-scrollbar {
-      display: none;
-    }
-
-    > * {
-      width:  100vw;
-      min-height: calc(100vh - 70px);
-      scroll-snap-align: start;
-    }
   }
 }
